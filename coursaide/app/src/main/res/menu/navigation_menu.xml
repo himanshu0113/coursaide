@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/upload_menu"
+        android:title="Upload Time Table"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/uploadc_menu"
+        android:title="Upload Courses"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/update_menu"
+        android:title="Update Courses"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/new_admin_menu"
+        android:title="Add new admin"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/change_pass_menu"
+        android:title="Change Password"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/del_account"
+        android:title="Delete Account"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/logout_menu"
+        android:title="Logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+</menu>

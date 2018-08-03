@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ubantu.coursaide_admin.Settings_MT17015"
+    android:background="@drawable/dark"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       >
+       <Space
+           android:layout_width="1dp"
+           android:layout_height="10dp" />
+
+       <Button
+           android:id="@+id/set_edit_profile_button"
+           style="@style/menu_text"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:background="@drawable/tp"
+           android:drawableLeft="@drawable/ic_settings_white_24dp"
+           android:text="Edit profile"
+
+           android:textAlignment="textStart" />
+
+       <View style="@style/Divider"/>
+
+       <Button
+           android:id="@+id/set_change_pswd_button"
+           style="@style/menu_text"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:background="@drawable/tp"
+           android:drawableLeft="@drawable/ic_lock_white_24dp"
+           android:text="Change Password"
+           android:textAlignment="textStart"
+
+           />
+       <View style="@style/Divider"/>
+
+       <Button
+           android:id="@+id/button2"
+           style="@style/menu_text"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:background="@drawable/tp"
+           android:drawableLeft="@drawable/ic_delete_forever_white_24dp"
+           android:text="Delete Account"
+           android:textAlignment="textStart" />
+       <View style="@style/Divider"/>
+
+   </LinearLayout>
+
+</LinearLayout>

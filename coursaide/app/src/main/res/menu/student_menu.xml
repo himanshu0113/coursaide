@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/viewprof"
+        android:title="Profile"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/sem_course"
+        android:title="Semester Courses"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/ta_courses"
+        android:title="TA Courses"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/get_time_table"
+        android:title="Get Time Table"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <!--<item
+        android:id="@+id/DelAcc"
+        android:title="Delete Account"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>-->
+
+    <item
+        android:id="@+id/Logout"
+        android:title="Logout"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+
+
+
+
+</menu>

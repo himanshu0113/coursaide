@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/white_rounde_rec"
+       >
+
+
+        <EditText
+            android:id="@+id/ut_cname_editT2"
+            style="@style/form_text"
+            android:layout_width="341dp"
+            android:hint="@string/course_name" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <EditText
+            android:id="@+id/ut_ccode_editT2"
+            style="@style/form_text"
+
+
+            android:layout_width="344dp"
+            android:hint="@string/course_code" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/credit"
+                style="@style/form_text"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="@string/credits" />
+
+            <EditText
+                android:id="@+id/rm_credit_edit_text"
+                style="@style/form_text"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"></Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/splz"
+                style="@style/form_text"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="@string/specialization"
+
+                />
+
+            <Spinner
+                android:id="@+id/splz_spinner"
+                style="@style/for_spinner"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bucket"
+                style="@style/form_text"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="@string/bucket"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.113"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.621" />
+
+            <Spinner
+                android:id="@+id/bucket_spinner"
+                style="@style/for_spinner"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.774"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.548" />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <Button
+        android:id="@+id/gvalues_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/background_login"
+        android:text="@string/get_stored_values"
+        android:textColor="#eeeeee"
+            android:layout_gravity="center_horizontal"
+       />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_login"
+        android:text="@string/update"
+        android:textColor="#eeeeee"
+       android:layout_gravity="center_horizontal"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

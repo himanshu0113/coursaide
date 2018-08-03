@@ -1,0 +1,149 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recom_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text=" Credits to Complete" />
+
+            <EditText
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/maxCredits"
+                android:hint="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="Specialization Credits " />
+
+            <EditText
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/splCredits"
+                android:hint="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="Bucket Credits " />
+
+            <EditText
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buckCredits"
+                android:hint="0" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="371dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="Preferred Courses" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/add_course_ib"
+                android:layout_width="60dp"
+                android:layout_height="39dp"
+
+                android:backgroundTint="@color/colorAccent"
+                android:onClick="buttonClick"
+                android:src="@drawable/ic_add_blue_24dp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031">
+
+            <LinearLayout
+                android:id="@+id/parent_Linear_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/sc_result_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_login"
+            android:textColor="#eeee"
+            android:text="Reccomend"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>

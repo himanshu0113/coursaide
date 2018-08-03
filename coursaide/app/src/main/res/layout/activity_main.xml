@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#000033"-->
+    <!--tools:contecom.example.ubantu.coursaide_admin.MainActivity_MT17015_MT17015vity">-->
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/dark">
+
+
+        <LinearLayout
+            android:id="@+id/linear_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:padding="30dp">
+            <!---->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:padding="16dp"
+                android:src="@drawable/coursaide"
+                app:layout_constraintBottom_toTopOf="@+id/bgTextView"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!--
+        refer to styles.xml for @style/login_pages
+        -->
+
+                <EditText
+                    android:id="@+id/student_username"
+                    style="@style/login_pages"
+                    android:drawableLeft="@drawable/ic_person_white_24dp"
+                    android:hint="@string/username"
+                    android:maxLines="1"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="false" />
+
+                <EditText
+                    android:id="@+id/student_password"
+                    style="@style/login_pages"
+                    android:drawableLeft="@drawable/ic_lock_white_24dp"
+                    android:hint="@string/pass"
+                    android:inputType="textPassword"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="false"
+
+                    />
+
+
+                <CheckBox
+                    android:id="@+id/remember_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remember_me"
+                    android:textColor="#eeeeee" />
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="34dp"
+                    android:background="@drawable/white_rounde_rec"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:padding="16dp"
+                    android:text="@string/login"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    />
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/Admin_login_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/tp"
+                    android:padding="16dp"
+                    android:paddingTop="5dp"
+                    android:text="Login as admin"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3">
+
+                    <Button
+                        android:id="@+id/forgot_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        android:background="@drawable/tp"
+                        android:clickable="true"
+                        android:text="forgot password   "
+                        android:textAlignment="textEnd"
+                        android:textColor="#eeeeee"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="0.2dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="11dp"
+                        android:background="#eeeeee">
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/Signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:background="@drawable/tp"
+                        android:clickable="true"
+                        android:padding="10dp"
+                        android:text="Register"
+                        android:textAlignment="textStart"
+
+                        android:textColor="#eeeeee"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+<!--</android.support.constraint.ConstraintLayout>-->

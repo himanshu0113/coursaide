@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/dark"
+        tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@drawable/white_rounde_rec"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp">
+
+
+        <EditText
+            android:id="@+id/acCnameEditText"
+            style="@style/form_text"
+
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/course_name" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <EditText
+            android:id="@+id/acCcodeEditText"
+            style="@style/form_text"
+
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/course_code" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ac_credits"
+                style="@style/form_text"
+
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/credits"
+                />
+
+            <EditText
+                style="@style/form_text"
+                android:id="@+id/ac_creditsEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"></Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ac_splz"
+                style="@style/form_text"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Specialization"
+
+                />
+
+            <Spinner
+                android:id="@+id/acSplSpinner"
+                style="@style/for_spinner"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ac_bucket"
+                style="@style/form_text"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bucket"
+                />
+
+            <Spinner
+                android:id="@+id/acBucketSpinner"
+                style="@style/for_spinner"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.788"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ac_branch"
+                style="@style/form_text"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Branch"
+
+                />
+
+            <Spinner
+                android:id="@+id/acBranchSpinner"
+                style="@style/for_spinner"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/Branches" />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <Button
+            android:id="@+id/acAddButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_login"
+            android:text="ADD"
+            android:textColor="#eeeeee"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.841" />
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+    <!--
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start">
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/navigation_menu">
+
+
+
+    </android.support.design.widget.NavigationView>
+    -->

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/white_rounde_rec"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/vp_completed_c"
+                style="@style/form_text"
+                android:layout_width="138dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="15dp"
+                android:text="Courses Completed" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/vp_scoll"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shadow_1">
+
+            <LinearLayout
+                android:id="@+id/parent_Linear_Layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/subjectTextView"
+                    style="@style/form_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="20dp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vp_completed"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Credits Completed" />
+
+            <TextView
+                android:id="@+id/vp_credits_comp_textv"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vp_program"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Programe" />
+
+            <TextView
+                android:id="@+id/vp_program_textv"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vp_splz"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Specialization" />
+
+            <TextView
+                android:id="@+id/vp_splz_textv"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vp_branch"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Branch" />
+
+            <TextView
+                android:id="@+id/vp_branch_textv"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+

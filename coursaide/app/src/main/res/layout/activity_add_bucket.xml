@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/dark"
+        tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/white_rounde_rec"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+
+        android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space><Space
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_weight="1" >
+    </Space>
+
+        <EditText
+            android:id="@+id/ubCnameEditText"
+            style="@style/form_text"
+
+            android:layout_height="55dp"
+            android:hint="@string/new_bucket_name"
+            android:inputType=""
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ubBranchTextView"
+                style="@style/form_text"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:text="@string/branch" />
+
+            <Spinner
+                android:id="@+id/ubBranchSpinner"
+                style="@style/for_spinner"
+
+
+                android:layout_height="match_parent"
+                android:entries="@array/Branches"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+    <Button
+        android:id="@+id/ubAddButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_login"
+        android:text="@string/add"
+        android:textColor="#eeeeee"
+        android:layout_gravity="center_horizontal"
+        />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ubDelTextView"
+                style="@style/form_text"
+                android:layout_width="109dp"
+                android:layout_height="28dp"
+                android:gravity="center_horizontal"
+                android:text="@string/bucket_name" />
+
+            <Spinner
+                android:id="@+id/ubBucketSpinner"
+                style="@style/for_spinner"
+                android:layout_width="164dp"
+
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+
+    <Button
+        android:id="@+id/ubDeleteButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_login"
+        android:text="@string/delete"
+        style="@style/pagetext"
+        android:layout_gravity="center"
+        />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

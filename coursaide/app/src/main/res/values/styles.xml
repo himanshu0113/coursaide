@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0f9e90</item>
+        <item name="colorPrimaryDark">#394949</item>
+        <item name="colorAccent">#10c9e5</item>
+        <item name="android:textColorSecondary">#a1a4a8</item>
+    </style>
+
+
+    <style name="login_pages">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">#eeeeee</item>
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textColorSecondary">#eeeeee</item>
+    </style>
+
+    <style name="pagetext">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">#eeeeee</item>
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColorSecondary">#eeeeee</item>
+    </style>
+
+    <style name="HeadingAppName">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:typeface">sans</item>
+
+    </style>
+
+    <style name="form_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColorHint">#aaafb7</item>
+        <item name="android:textColor">#797b7f</item>
+        <item name="android:drawablePadding">18dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="form_text_light">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColorHint">#eeeeee</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:drawablePadding">18dp</item>
+        <item name="android:textColorSecondary">#eeeeee</item>
+    </style>
+
+    <style name="menu_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColorHint">#b0b3b7</item>
+        <item name="android:textColor">#eeeeee</item>
+        <item name="android:drawablePadding">18dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="mini_heading">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:drawablePadding">18dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="for_spinner">
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:textColorHint">#aaafb7</item>
+        <item name="android:dropDownSelector">#797b7f</item>
+
+    </style>
+
+    <style name="button_same_as_bg">
+        <item name="android:background">@drawable/tp</item>
+        <item name="android:height">46dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColorHint">#eeeeee</item>
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:drawablePadding">18dp</item>#0ed3c0
+        <item name="android:textColorSecondary">#eeeeee</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.2dp</item>
+        <item name="android:background">#e0e0e0</item>
+    </style>
+
+    <style name="Divider_course">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.7dp</item>
+        <item name="android:background">#b0b3b7</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

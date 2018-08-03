@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ubantu.coursaide_admin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity_MT17015"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Upload_TT_MT17015"
+            android:label="Upload Time Table"/>
+        <activity android:name=".Update_TT_MT17015"
+            android:label="Update Time Table"/>
+        <activity android:name=".UpdateMenu_MT17015"
+            android:label="Update Menu"/>
+        <activity android:name=".AddCourse_MT17015"
+            android:label="Add New Course"/>
+        <activity android:name=".RemoveCourse_MT17015"
+            android:label="Remove Course"/>
+        <activity android:name=".AddBucket_MT17015" />
+        <activity android:name=".addSpecialization_MT17015" />
+        <activity android:name=".AddAdmin_MT17015"
+            android:label="Add Admin"/>
+        <activity android:name=".ChangePassword_MT17015"
+            android:label="Change Password"/>
+        <activity android:name=".Upload_Courses_MT17015"
+            android:label="Upload All Courses"/>
+        <activity android:name=".Admin_login_MT17015"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Edit_Profile_MT17015"
+            android:label="Edit Profile"/>
+        <activity android:name=".View_Profile_MT17015"
+            android:label="Profile"/>
+        <activity android:name=".TimeTable_MT17015"
+            android:label="Personalized Time Table"/>
+        <activity
+            android:name=".Sign_up_one_MT17015"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sign_up_two_MT17015"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SemesterCourses_MT17015"
+            android:label="Semester Course Selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TaCourses_MT17015"
+            android:label="TA Course Selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Settings_MT17015" />
+        <activity android:name=".Change_password_stu_MT17015"
+            android:label="Change Password"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/white_rounde_rec"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+
+
+        >
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <TextView
+            style="@style/mini_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Step Two"
+
+            />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1">
+
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/su_cred_comp"
+                style="@style/form_text"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="Credits Completed" />
+
+            <EditText
+                android:id="@+id/su_credit_comp_editt"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+
+        <RadioGroup
+            android:id="@+id/mtech_btech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/su_mtech_r_button"
+                style="@style/form_text"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:text="M.Tech" />
+
+            <RadioButton
+                android:id="@+id/su_btech_r_button"
+                style="@style/form_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.Tech" />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/su_branch"
+                style="@style/form_text"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="Branch" />
+
+            <Spinner
+                android:id="@+id/su_branch_spinner"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/Branches">
+
+            </Spinner>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/su_splz"
+                style="@style/form_text"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="Specialization" />
+
+            <Spinner
+                android:id="@+id/su_splzspinner"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+        <LinearLayout
+            android:layout_width="324dp"
+            android:layout_height="30dp"
+            android:forceHasOverlappingRendering="true"
+            android:hapticFeedbackEnabled="true"
+            android:paddingLeft="20dp">
+
+            <TextView
+                style="@style/form_text"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="Courses Completed" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/su_add_course_fab"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_add_white_24dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+        <ScrollView
+            android:id="@+id/su_scroll"
+            android:layout_width="300dp"
+            android:layout_height="186dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shadow_1">
+
+            <LinearLayout
+                android:id="@+id/parent_Linear_Layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </ScrollView>
+        <Button
+
+            android:id="@+id/su_save"
+            android:layout_marginRight="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_login"
+            android:text="Save"
+            android:textColor="#eeeeee" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+

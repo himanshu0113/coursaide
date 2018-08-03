@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/white_rounde_rec">
+
+        <ListView
+            android:id="@+id/list_view_recom"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:choiceMode="singleChoice">
+
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="#eeee"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/background_login"
+        android:id="@+id/save_recom_result"/>
+</LinearLayout>

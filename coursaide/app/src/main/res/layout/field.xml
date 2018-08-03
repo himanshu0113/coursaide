@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="4"
+    android:background="@drawable/c_border"
+    android:id="@+id/dynamicview">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/dynamic_text"
+            style="@style/form_text"
+            android:layout_width="203dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1"
+            android:hint="Add a course"
+
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/dynamic_button"
+            style="@style/form_text"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/tp"
+            android:text="X"
+            android:textColor="@color/colorPrimary" />
+</LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="2dp"
+            android:layout_height="2dp" />
+</LinearLayout>

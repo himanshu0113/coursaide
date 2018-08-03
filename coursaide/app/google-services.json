@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "109027281024",
+    "firebase_url": "https://coursaideadmin.firebaseio.com",
+    "project_id": "coursaideadmin",
+    "storage_bucket": "coursaideadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109027281024:android:f7696ed452657c50",
+        "android_client_info": {
+          "package_name": "com.example.ubantu.coursaide_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109027281024-5sdffser7eptngi5q4nhp5n2mck4vsj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubantu.coursaide_admin",
+            "certificate_hash": "fd3146214d37266f938da4aedf525abcccc23f8d"
+          }
+        },
+        {
+          "client_id": "109027281024-jm02l2funrlt02h52uc752ie66egehip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubantu.coursaide_admin",
+            "certificate_hash": "1f108a2a9eb51e5a4c12bac1415c04c593115b5e"
+          }
+        },
+        {
+          "client_id": "109027281024-j0ehm0jlegd3d27l474vkp5ft9psijt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubantu.coursaide_admin",
+            "certificate_hash": "b97a642be2bd326886c87a7fbc8d2792f2e04075"
+          }
+        },
+        {
+          "client_id": "109027281024-h8jed881v33u290sahc4b9gdmstluafd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8nzY7ORVRjiqQzpgLvMdFSoRh3fgJCGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109027281024-h8jed881v33u290sahc4b9gdmstluafd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

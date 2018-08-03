@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/white_rounde_rec"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/ep_completed"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Credits Completed" />
+
+            <EditText
+                android:id="@+id/ep_credits_comp_editt"
+                android:layout_width="157dp"
+                style="@style/form_text"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+
+        <RadioGroup
+            android:paddingLeft="20dp"
+            android:id="@+id/degreeMB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ep_mtech_r_button"
+                style="@style/form_text"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:text="MTech" />
+
+            <RadioButton
+                android:id="@+id/ep_btech_r_button"
+                style="@style/form_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTech" />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ep_branch"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Branch" />
+
+            <Spinner
+                android:id="@+id/ep_branch_spinner"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/Branches">
+
+            </Spinner>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ep_splz"
+                style="@style/form_text"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Specialization" />
+
+            <Spinner
+                android:id="@+id/ep_splz_spinner"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/ep_c_completed"
+                style="@style/form_text"
+                android:layout_width="183dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:text="Courses Completed" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/ep_add_course_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_add_white_24dp" />
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"></Space>
+
+        <ScrollView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shadow_1">
+
+            <LinearLayout
+                android:id="@+id/parent_Linear_Layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+        <Button
+
+            android:id="@+id/su_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_login"
+            android:text="Save"
+            android:textColor="#eeeeee" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+

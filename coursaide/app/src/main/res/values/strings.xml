@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Coursaide_Admin</string>
+    <string name="Open">Coursaide_Admin</string>
+    <string name="Close">Coursaide_Admin</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="bucket_name">Bucket Name</string>
+    <string name="add">ADD</string>
+    <string name="delete">Delete</string>
+    <string name="update_buckets">Update Buckets</string>
+    <string name="branch">Branch</string>
+    <string name="update_specialization">Update Specialization</string>
+    <string name="add_admin">Add Admin</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="add_new_admin">Add new admin</string>
+    <string name="update_course">Update Course</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="credits">Credits</string>
+    <string name="specialization">Specialization</string>
+    <string name="bucket">Bucket</string>
+    <string name="update">Update</string>
+    <string name="get_stored_values">Get Stored Values</string>
+    <string name="select_a_file">Select a file</string>
+    <string name="browse">Browse</string>
+    <string name="upload">Upload</string>
+    <string name="upload_time_table">Upload Time Table</string>
+    <string name="new_bucket_name">Name of new bucket</string>
+    <string name="new_spl_name">Name of new specialization</string>
+    <string name="username">Username</string>
+    <string name="pass">........</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="upload_courses">Upload Courses</string>
+    <string name="add_courses">Add Courses</string>
+    <array name="Branches">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>CB</item>
+        <item>CSAM</item>
+        <item>CSD</item>
+        <item>CSSS</item>
+        <item>HONORS PROGRAM</item>
+        <item>MATH</item>
+        <item>None</item>
+    </array>
+    <string name="title_activity_signup_">Signup_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_semester__courses">Semester_Courses</string>
+    <string name="title_activity_semester_courses">SemesterCourses</string>
+    <string name="title_activity_ta_courses">TaCourses</string>
+</resources>

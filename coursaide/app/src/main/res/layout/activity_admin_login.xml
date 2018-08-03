@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:background="#000033"-->
+<!--tools:contecom.example.ubantu.coursaide_admin.MainActivity_MT17015_MT17015vity">-->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dark"
+    tools:context="com.example.ubantu.coursaide_admin.MainActivity_MT17015">
+
+    <LinearLayout
+        android:id="@+id/linear_lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <!---->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:padding="16dp"
+            android:src="@drawable/coursaide"
+            app:layout_constraintBottom_toTopOf="@+id/bgTextView"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutad"
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:orientation="vertical">
+
+
+            <!--
+    refer to styles.xml for @style/login_pages
+    -->
+
+            <EditText
+                android:id="@+id/admin_username"
+                style="@style/login_pages"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:hint="@string/username"
+                android:maxLines="1"
+                android:selectAllOnFocus="false"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/admin_password"
+                style="@style/login_pages"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:hint="@string/pass"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="false"
+                android:singleLine="false"
+
+                />
+
+
+            <CheckBox
+                android:id="@+id/remember_me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/remember_me"
+                android:textColor="#eeeeee" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="34dp"
+                android:background="@drawable/background_login"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:padding="16dp"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="#eeeeee"
+
+                />
+
+
+            <Button
+                android:id="@+id/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/tp"
+                android:clickable="true"
+                android:text="@string/forgot_password"
+                android:textColor="#eeeeee"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/login_as_student_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tp"
+                android:padding="16dp"
+                android:paddingTop="5dp"
+                android:text="Login as Student"
+                android:textColor="#eeeeee"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
