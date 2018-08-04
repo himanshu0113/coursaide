@@ -1,7 +1,5 @@
 # coursaide
 
-# Mobile Computing – Project Description
-
 Vision: To design a TA management and Course-Selection application that helps resolve time-table based conflicts for students of IIIT-Delhi.
 
 Features: The application will provide user profiles for students, and a separate profile for system admins. 
